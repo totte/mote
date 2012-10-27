@@ -1,13 +1,13 @@
-tide: totte's integrated development environment
-================================================
+mote: modal text editor
+=======================
 
 What is it?
 -----------
-A Vim-look-a-like with a select few IDE features for Python (as of now), put together using Python, C++ and Qt. It is written for the sake of fun and learning and may thus not be up to par with similar software in the same category. I'm imagining it'll be neither Vim or Eric, but rather something inbetween.
+A spiritual fork or reimplementation of Vim, put together using Python, C++ and Qt. By utilizing GUI elements instead of relying on a text-based interface (e.g. ncurses) the user experience can be made more comprehensible and easily understood. Vim is a widely used and acknowledged text editor with an abundance of extensions. This project aims to be as compatible as it can be with Vim and remains a heavily keyboard-focused environment.
 
 Planned features
 ----------------
-* Graphic equivalent of the NERDTree Vim plugin
+* Graphic equivalent of netrw/NERDTree
 * Tab completion
 * Go to file (think CMD-T or FuzzyFinder)
 * Syntax highlighting using the same (if possible) syntax as Vim
